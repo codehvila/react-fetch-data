@@ -1,0 +1,25 @@
+.ItemList {
+  box-sizing: border-box;
+  max-width: 512px;
+  margin: 3rem auto;
+}
+
+.ItemList li {
+  margin: 1.5rem;
+  padding: 1.5rem;
+  background-color: #eee;
+  box-shadow: 3px 3px 5px 3px #e8e8e8;
+  border-radius: 1rem;
+  list-style: none;
+  text-align: left;
+  border: 1px solid #e4e4e4;
+}
+
+.ItemList .price span {
+  font-size: 1.5rem;
+  padding: 6px 0.5rem;
+  border-radius: 1.5rem;
+  background-color: #fff;
+  font-weight: 800;
+  color: #444;
+}

@@ -68,3 +68,66 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+---
+
+## Fetching Data with Hooks in Functional Components
+
+Install JSON Server
+
+```npm install -g json-server```
+
+Create a `db.json` file with some data:
+
+```json
+{
+  "items": [
+    {
+      "id": 0,
+      "product": "Cheese",
+      "price": "€52.00",
+      "productName": "Generic Wooden Soap",
+      "productAdjective": "Luxurious",
+      "productDescription": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+      "department": "Baby"
+    },
+    {
+      "id": 1,
+      "product": "Pants",
+      "price": "€113.00",
+      "productName": "Handcrafted Metal Bike",
+      "productAdjective": "Modern",
+      "productDescription": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+      "department": "Jewelery"
+    },
+    {
+      "id": 2,
+      "product": "Shirt",
+      "price": "€140.00",
+      "productName": "Gorgeous Frozen Bike",
+      "productAdjective": "Modern",
+      "productDescription": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+      "department": "Jewelery"
+    },
+    {
+      "id": 3,
+      "product": "Towels",
+      "price": "€156.00",
+      "productName": "Oriental Soft Shoes",
+      "productAdjective": "Refined",
+      "productDescription": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+      "department": "Shoes"
+    },
+    {
+      "id": 4,
+      "product": "Chair",
+      "price": "€67.00",
+      "productName": "Tasty Rubber Ball",
+      "productAdjective": "Ergonomic",
+      "productDescription": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+      "department": "Grocery"
+    }
+  ]
+}
+```
+

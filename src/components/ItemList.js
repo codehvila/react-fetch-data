@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import styles from "./ItemList.module.css";
 
 export default function ItemList() {
@@ -7,11 +7,11 @@ export default function ItemList() {
 
   console.log(items);
 
-  const fetchItems = async (urlParam) => {
+  const fetchItems = useCallback(async (urlParam) => {
     const response = await fetch(urlParam);
     const json = await response.json();
     setItems(json);
-  };
+  }, []);
 
   useEffect(() => {
     fetchItems(url);

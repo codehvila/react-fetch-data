@@ -7,11 +7,15 @@ export default function ItemList() {
 
   console.log(items);
 
+  const fetchItems = async (urlParam) => {
+    const response = await fetch(urlParam);
+    const json = await response.json();
+    setItems(json);
+  };
+
   useEffect(() => {
-    fetch(url)
-      .then((response) => response.json())
-      .then((json) => setItems(json));
-  }, [url]);
+    fetchItems(url);
+  }, [url, fetchItems]);
 
   return (
     <div className={styles.ItemList}>

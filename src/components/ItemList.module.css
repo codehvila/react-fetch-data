@@ -23,3 +23,13 @@
   font-weight: 800;
   color: #444;
 }
+
+.ItemList .filters {
+  display: flex;
+  gap: 1rem;
+}
+
+.ItemList .filters button {
+  padding: 0.6rem;
+  flex-grow: 1;
+}

@@ -3,19 +3,20 @@ import styles from "./ItemList.module.css";
 
 export default function ItemList() {
   const [items, setItems] = useState([]);
+  const [url, setUrl] = useState("http://localhost:3005/items");
 
   console.log(items);
 
   useEffect(() => {
-    fetch("http://localhost:3005/items")
+    fetch(url)
       .then((response) => response.json())
       .then((json) => setItems(json));
-  }, []);
+  }, [url]);
 
   return (
-    <div>
+    <div className={styles.ItemList}>
       <h2>Item List</h2>
-      <ul className={styles.ItemList}>
+      <ul>
         {items.map((item) => (
           <li key={item.id}>
             <h3>
@@ -28,6 +29,18 @@ export default function ItemList() {
           </li>
         ))}
       </ul>
+      <div className={styles.filters}>
+        <button
+          onClick={() =>
+            setUrl("http://localhost:3005/items?department=Jewelery")
+          }
+        >
+          Jewelery
+        </button>
+        <button onClick={() => setUrl("http://localhost:3005/items")}>
+          All Departments
+        </button>
+      </div>
     </div>
   );
 }

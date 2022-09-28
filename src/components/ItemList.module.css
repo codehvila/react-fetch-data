@@ -4,6 +4,10 @@
   margin: 3rem auto;
 }
 
+.ItemList ul {
+  padding-left: 0;
+}
+
 .ItemList li {
   margin: 1.5rem;
   padding: 1.5rem;

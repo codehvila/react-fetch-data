@@ -44,6 +44,96 @@
       "productAdjective": "Ergonomic",
       "productDescription": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
       "department": "Grocery"
+    },
+    {
+      "id": 5,
+      "product": "Pants",
+      "price": "€194.00",
+      "productName": "Electronic Metal Chair",
+      "productAdjective": "Electronic",
+      "productDescription": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+      "department": "Computers"
+    },
+    {
+      "id": 6,
+      "product": "Mouse",
+      "price": "€171.00",
+      "productName": "Elegant Frozen Cheese",
+      "productAdjective": "Sleek",
+      "productDescription": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+      "department": "Automotive"
+    },
+    {
+      "id": 7,
+      "product": "Bacon",
+      "price": "€68.00",
+      "productName": "Licensed Soft Chips",
+      "productAdjective": "Practical",
+      "productDescription": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "department": "Health"
+    },
+    {
+      "id": 8,
+      "product": "Chair",
+      "price": "€116.00",
+      "productName": "Sleek Frozen Hat",
+      "productAdjective": "Elegant",
+      "productDescription": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+      "department": "Jewelery"
+    },
+    {
+      "id": 9,
+      "product": "Soap",
+      "price": "€100.00",
+      "productName": "Refined Rubber Shirt",
+      "productAdjective": "Luxurious",
+      "productDescription": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+      "department": "Clothing"
+    },
+    {
+      "id": 10,
+      "product": "Cheese",
+      "price": "€112.00",
+      "productName": "Handmade Steel Pants",
+      "productAdjective": "Bespoke",
+      "productDescription": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+      "department": "Garden"
+    },
+    {
+      "id": 11,
+      "product": "Chips",
+      "price": "€193.00",
+      "productName": "Practical Granite Shirt",
+      "productAdjective": "Small",
+      "productDescription": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+      "department": "Baby"
+    },
+    {
+      "id": 12,
+      "product": "Soap",
+      "price": "€112.00",
+      "productName": "Luxurious Bronze Bacon",
+      "productAdjective": "Licensed",
+      "productDescription": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+      "department": "Automotive"
+    },
+    {
+      "id": 13,
+      "product": "Shoes",
+      "price": "€151.00",
+      "productName": "Practical Metal Bike",
+      "productAdjective": "Bespoke",
+      "productDescription": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+      "department": "Music"
+    },
+    {
+      "id": 14,
+      "product": "Car",
+      "price": "€115.00",
+      "productName": "Unbranded Soft Chair",
+      "productAdjective": "Modern",
+      "productDescription": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "department": "Beauty"
     }
   ]
 }

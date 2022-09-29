@@ -73,11 +73,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## Fetching Data with Hooks in Functional Components
 
-Install JSON Server
+### Install JSON Server
 
 ```npm install -g json-server```
 
-Create a `db.json` file with some data:
+Create a `db.json` file with some data and a `'./data'` name folder and move de `db.json` file inside:
 
 ```json
 {
@@ -131,3 +131,10 @@ Create a `db.json` file with some data:
 }
 ```
 
+### Run json-server
+
+```json-server --watch data/db.json --port 3005```
+
+### Run Application
+
+`npm start`

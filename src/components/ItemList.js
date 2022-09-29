@@ -3,9 +3,9 @@ import useFetch from "../hooks/useFetch";
 import styles from "./ItemList.module.css";
 
 export default function ItemList() {
-  const [url, setUrl] = useState("http://localhost:3005/items");
+  const [url, setUrl] = useState("http://localhost:3005/itemss");
 
-  const { data: items, isPending } = useFetch(url);
+  const { data: items, isPending, error } = useFetch(url);
 
   console.log(items);
 
@@ -13,6 +13,7 @@ export default function ItemList() {
     <div className={styles.ItemList}>
       <h2>Item List</h2>
       {isPending && <div>Loading items...</div>}
+      {error && <div>{error}</div>}
       <ul>
         {items &&
           items.map((item) => (

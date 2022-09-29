@@ -3,7 +3,7 @@ import useFetch from "../hooks/useFetch";
 import styles from "./ItemList.module.css";
 
 export default function ItemList() {
-  const [url, setUrl] = useState("http://localhost:3005/itemss");
+  const [url, setUrl] = useState("http://localhost:3005/items");
 
   const { data: items, isPending, error } = useFetch(url);
 
